@@ -79,6 +79,7 @@ Se pueden concatenar mediante pipes tantos comandos como se desee, y el output f
 ## General
 - Para evitar posibles malinterpretaciones de los inputs del usuario, evite usar tabulaciones y/o más de un caracter de espacio entre los comandos/programas y sus argumentos. Se han realizado muchos tests que aseguran un buen reconocimiento en escenarios de este estilo, pero puede que algún caso específico no haya sido detectado aún.\
 Si detecta un mal funcionamiento de la shell en algún escenario no contemplado en la sección ***Known issues***, considere abrir un issue en el repositorio para trabajar en su resolución tan rápido como se pueda.
+- Esta shell no mantiene un historial de comandos ingresados, por lo que no se puede hacer uso de las teclas de cursor para acceder a algún comando ingresado previamente.
 ## Stream-redirection related:
 - A la hora de redirigir el `stdin`, recuerde que el archivo que reemplazará el stdin **debe estar situado en la carpeta correspondiente nombrada anteriormente**. Lo mismo se debe tener en cuenta para los archivos que reemplazarán al `stdout`: se encontrarán en la carpeta de redirección de `stdout`.\
 Si desea ejecutar un programa tomando como input el output de otro programa redirigido anteriormente, tenga en cuenta que deberá mover el archivo de `stdout` anterior a la carpeta de redirección de `stdin` para que la shell lo encuentre.\
