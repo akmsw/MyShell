@@ -10,7 +10,7 @@ o, simplemente:
 
 `make`
 
-Esto compilará todo con las flags indicadas en la consigna:
+Esto compilará todo con las siguientes flags:
 
 `gcc -Wall -Werror -pedantic`
 
