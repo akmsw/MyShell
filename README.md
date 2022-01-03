@@ -1,6 +1,8 @@
 # MyShell
 ## Sistemas Operativos I - FCEFyN - UNC
 
+[ÚSESE ESTE PROGRAMA BAJO SU PROPIA RESPONSABILIDAD]
+
 Para comenzar, se debe clonar el repositorio. Una vez hecho, podemos compilar todo el proyecto aprovechando el archivo makefile, con el comando:
 
 `make myshell`
