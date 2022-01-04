@@ -46,7 +46,7 @@ Esta shell es capaz de tomar sus comandos a ejecutar desde un archivo **batchfil
 
 Cuando se alcanza el fin de archivo (`EOF`) o el comando `quit`, la consola se cierra.
 
-Si el programa se ejecuta sin argumento (`.bin/lab4`), se muestra el command prompt y se esperan los inputs del usuario.
+Si el programa se ejecuta sin argumento (`.bin/myshell`), se muestra el command prompt y se esperan los inputs del usuario.
 
 > *Consulte ejemplos de ejecución de batchfiles iniciando la shell con el parámetro `-e`*
 
