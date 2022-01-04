@@ -37,7 +37,7 @@ Esta consola soporta los siguientes comandos internos:
 > *Consulte ejemplos de ejecución de comandos internos iniciando la shell con el parámetro `-e`*
 
 ## External commands / programs invocation
-Las entradas del usuario que no sean comandos internos, son interpretadas como la invocación de un programa con sus argumentos. El input puede ser algún programa estándar como por ejemplo `man`, `ls` o `ps` (cuyos paths absolutos se obtienen mediante la variable de entorno `$PATH`), un path relativo a algún ejecutable (por ejemplo, la shell puede ejecutarse a sí misma ingresando el path relativo `./bin/lab4`), o puede ser un path absoluto que indique dónde se debe hallar el ejecutable deseado. Todas estas opciones soportan tantos argumentos como sean necesarios para estos programas o comandos.
+Las entradas del usuario que no sean comandos internos, son interpretadas como la invocación de un programa con sus argumentos. El input puede ser algún programa estándar como por ejemplo `man`, `ls` o `ps` (cuyos paths absolutos se obtienen mediante la variable de entorno `$PATH`), un path relativo a algún ejecutable (por ejemplo, la shell puede ejecutarse a sí misma ingresando el path relativo `./bin/myshell`), o puede ser un path absoluto que indique dónde se debe hallar el ejecutable deseado. Todas estas opciones soportan tantos argumentos como sean necesarios para estos programas o comandos.
 
 > *Consulte ejemplos de ejecución de programas y comandos externos iniciando la shell con el parámetro `-e`*
 
